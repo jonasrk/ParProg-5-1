@@ -195,6 +195,9 @@
 		DD91B6ED1887207700FBC83A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = "/usr/local/Cellar/open-mpi/1.7.3/include";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/usr/local/Cellar/open-mpi/1.7.3/lib";
+				"OTHER_LDFLAGS[arch=*]" = "-lmpi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -202,6 +205,9 @@
 		DD91B6EE1887207700FBC83A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = "/usr/local/Cellar/open-mpi/1.7.3/include";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/usr/local/Cellar/open-mpi/1.7.3/lib";
+				"OTHER_LDFLAGS[arch=*]" = "-lmpi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
